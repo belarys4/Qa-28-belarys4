@@ -6,23 +6,23 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="animal")
+@Table(name = "animal")
 public class Animal {
     @Id
 
     int id;
 
-    @Column(name="`name`")
+    @Column(name = "`name`")
     String name;
 
-    @Column(name="age")
+    @Column(name = "age")
     int age;
 
-    @Column(name="`type`")
+    @Column(name = "`type`")
     int type;
-    @Column(name="sex")
+    @Column(name = "sex")
     int sex;
-    @Column(name="place")
+    @Column(name = "place")
     int place;
 
     public int getId() {

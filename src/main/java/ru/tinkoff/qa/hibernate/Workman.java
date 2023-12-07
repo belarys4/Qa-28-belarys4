@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="workman")
+@Table(name = "workman")
 public class Workman {
     @Id
 
@@ -53,4 +53,4 @@ public class Workman {
         this.position = position;
     }
 
-   }
+}
